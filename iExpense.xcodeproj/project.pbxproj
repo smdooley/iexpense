@@ -12,6 +12,7 @@
 		E41F14F52CE36947008EEE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41F14F42CE36947008EEE75 /* Assets.xcassets */; };
 		E41F14F82CE36947008EEE75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41F14F72CE36947008EEE75 /* Preview Assets.xcassets */; };
 		E41F14FF2CE369E6008EEE75 /* UsingStateWithClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */; };
+		E41F15012CE36B6B008EEE75 /* ShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15002CE36B6B008EEE75 /* ShowHideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E41F14F42CE36947008EEE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41F14F72CE36947008EEE75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingStateWithClassesView.swift; sourceTree = "<group>"; };
+		E41F15002CE36B6B008EEE75 /* ShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E41F14F42CE36947008EEE75 /* Assets.xcassets */,
 				E41F14F62CE36947008EEE75 /* Preview Content */,
 				E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */,
+				E41F15002CE36B6B008EEE75 /* ShowHideView.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				E41F14F32CE36946008EEE75 /* ContentView.swift in Sources */,
 				E41F14F12CE36946008EEE75 /* iExpenseApp.swift in Sources */,
 				E41F14FF2CE369E6008EEE75 /* UsingStateWithClassesView.swift in Sources */,
+				E41F15012CE36B6B008EEE75 /* ShowHideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
