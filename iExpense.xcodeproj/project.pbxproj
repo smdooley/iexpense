@@ -16,6 +16,8 @@
 		E41F15032CE36CB0008EEE75 /* DeletingItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */; };
 		E41F15052CE36E31008EEE75 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */; };
 		E41F15072CE370D7008EEE75 /* CodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15062CE370D7008EEE75 /* CodableView.swift */; };
+		E41F15092CE38E42008EEE75 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15082CE38E42008EEE75 /* ExpenseItem.swift */; };
+		E41F150B2CE38E78008EEE75 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F150A2CE38E78008EEE75 /* Expenses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItemsView.swift; sourceTree = "<group>"; };
 		E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 		E41F15062CE370D7008EEE75 /* CodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableView.swift; sourceTree = "<group>"; };
+		E41F15082CE38E42008EEE75 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		E41F150A2CE38E78008EEE75 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,9 @@
 				E41F14F22CE36946008EEE75 /* ContentView.swift */,
 				E41F14F42CE36947008EEE75 /* Assets.xcassets */,
 				E41F14F62CE36947008EEE75 /* Preview Content */,
-				E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */,
-				E41F15002CE36B6B008EEE75 /* ShowHideView.swift */,
-				E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */,
-				E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */,
-				E41F15062CE370D7008EEE75 /* CodableView.swift */,
+				E41F150C2CE38EA6008EEE75 /* Tutorials */,
+				E41F15082CE38E42008EEE75 /* ExpenseItem.swift */,
+				E41F150A2CE38E78008EEE75 /* Expenses.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -80,6 +82,18 @@
 				E41F14F72CE36947008EEE75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E41F150C2CE38EA6008EEE75 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */,
+				E41F15002CE36B6B008EEE75 /* ShowHideView.swift */,
+				E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */,
+				E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */,
+				E41F15062CE370D7008EEE75 /* CodableView.swift */,
+			);
+			path = Tutorials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +169,10 @@
 				E41F15072CE370D7008EEE75 /* CodableView.swift in Sources */,
 				E41F14F32CE36946008EEE75 /* ContentView.swift in Sources */,
 				E41F14F12CE36946008EEE75 /* iExpenseApp.swift in Sources */,
+				E41F15092CE38E42008EEE75 /* ExpenseItem.swift in Sources */,
 				E41F14FF2CE369E6008EEE75 /* UsingStateWithClassesView.swift in Sources */,
 				E41F15052CE36E31008EEE75 /* UserDefaultsView.swift in Sources */,
+				E41F150B2CE38E78008EEE75 /* Expenses.swift in Sources */,
 				E41F15032CE36CB0008EEE75 /* DeletingItemsView.swift in Sources */,
 				E41F15012CE36B6B008EEE75 /* ShowHideView.swift in Sources */,
 			);
