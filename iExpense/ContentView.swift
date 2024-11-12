@@ -23,6 +23,7 @@ struct ContentView: View {
                         }
                         Spacer()
                         Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                            .foregroundColor(item.amount < 10.0 ? /*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/ : item.amount < 100 ? .orange : .red)
                     }
                     
                 }
