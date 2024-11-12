@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Observation
 
 struct UsingStateWithClassesView: View {
     @State private var user = User()
