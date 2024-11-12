@@ -14,6 +14,7 @@
 		E41F14FF2CE369E6008EEE75 /* UsingStateWithClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */; };
 		E41F15012CE36B6B008EEE75 /* ShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15002CE36B6B008EEE75 /* ShowHideView.swift */; };
 		E41F15032CE36CB0008EEE75 /* DeletingItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */; };
+		E41F15052CE36E31008EEE75 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingStateWithClassesView.swift; sourceTree = "<group>"; };
 		E41F15002CE36B6B008EEE75 /* ShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideView.swift; sourceTree = "<group>"; };
 		E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItemsView.swift; sourceTree = "<group>"; };
+		E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E41F14FE2CE369E6008EEE75 /* UsingStateWithClassesView.swift */,
 				E41F15002CE36B6B008EEE75 /* ShowHideView.swift */,
 				E41F15022CE36CB0008EEE75 /* DeletingItemsView.swift */,
+				E41F15042CE36E31008EEE75 /* UserDefaultsView.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				E41F14F32CE36946008EEE75 /* ContentView.swift in Sources */,
 				E41F14F12CE36946008EEE75 /* iExpenseApp.swift in Sources */,
 				E41F14FF2CE369E6008EEE75 /* UsingStateWithClassesView.swift in Sources */,
+				E41F15052CE36E31008EEE75 /* UserDefaultsView.swift in Sources */,
 				E41F15032CE36CB0008EEE75 /* DeletingItemsView.swift in Sources */,
 				E41F15012CE36B6B008EEE75 /* ShowHideView.swift in Sources */,
 			);
