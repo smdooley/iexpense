@@ -14,7 +14,7 @@ struct AddView: View {
     
     @State private var name = ""
     @State private var type = "Personal"
-    @State private var amount = 0.0
+    @State private var amount = ""
     
     let types = ["Business", "Personal"]
     
@@ -29,16 +29,17 @@ struct AddView: View {
                     }
                 }
                 
-                TextField("Amount", value: $amount, format: .currency(code: "USD")
-                )
+                TextField("Amount", text: $amount)
                 .keyboardType(.decimalPad)
             }
             .navigationTitle("Add new expense")
             .toolbar {
                 Button("Save") {
-                    let item = ExpenseItem(name: name, type: type, amount: amount)
-                    expenses.items.append(item)
-                    dismiss()
+                    if let amountValue = Double(amount) {
+                        let item = ExpenseItem(name: name, type: type, amount: amountValue)
+                        expenses.items.append(item)
+                        dismiss()
+                    }
                 }
             }
         }
