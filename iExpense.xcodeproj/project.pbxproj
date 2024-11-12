@@ -18,6 +18,7 @@
 		E41F15072CE370D7008EEE75 /* CodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15062CE370D7008EEE75 /* CodableView.swift */; };
 		E41F15092CE38E42008EEE75 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F15082CE38E42008EEE75 /* ExpenseItem.swift */; };
 		E41F150B2CE38E78008EEE75 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F150A2CE38E78008EEE75 /* Expenses.swift */; };
+		E41F150E2CE39194008EEE75 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F150D2CE39194008EEE75 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E41F15062CE370D7008EEE75 /* CodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableView.swift; sourceTree = "<group>"; };
 		E41F15082CE38E42008EEE75 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		E41F150A2CE38E78008EEE75 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		E41F150D2CE39194008EEE75 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				E41F150C2CE38EA6008EEE75 /* Tutorials */,
 				E41F15082CE38E42008EEE75 /* ExpenseItem.swift */,
 				E41F150A2CE38E78008EEE75 /* Expenses.swift */,
+				E41F150D2CE39194008EEE75 /* AddView.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				E41F15072CE370D7008EEE75 /* CodableView.swift in Sources */,
 				E41F14F32CE36946008EEE75 /* ContentView.swift in Sources */,
+				E41F150E2CE39194008EEE75 /* AddView.swift in Sources */,
 				E41F14F12CE36946008EEE75 /* iExpenseApp.swift in Sources */,
 				E41F15092CE38E42008EEE75 /* ExpenseItem.swift in Sources */,
 				E41F14FF2CE369E6008EEE75 /* UsingStateWithClassesView.swift in Sources */,
