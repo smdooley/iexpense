@@ -36,14 +36,18 @@ struct ContentView: View {
             }
             .navigationTitle("iExpense")
             .toolbar {
-                Button("Add expense", systemImage: "plus") {
-                    showingAddExpense = true
+//                Button("Add expense", systemImage: "plus") {
+//                    showingAddExpense = true
+//                }
+                NavigationLink(destination: AddView(expenses: expenses)
+                    .navigationBarBackButtonHidden(true)) {
+                    Label("Add expense", systemImage: "plus")
                 }
             }
         }
-        .sheet(isPresented: $showingAddExpense) {
-            AddView(expenses: expenses)
-        }
+//        .sheet(isPresented: $showingAddExpense) {
+//            AddView(expenses: expenses)
+//        }
     }
     
     func removeItems(at offsets: IndexSet, ofType type: String) {
